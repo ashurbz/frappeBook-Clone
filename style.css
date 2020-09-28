@@ -1,0 +1,161 @@
+
+body{
+
+
+font-family:sans-serif;
+
+}
+
+
+#navbarNavDropdown{
+    flex-direction: row-reverse;
+}
+
+.footer-col-left{
+    text-align: left;
+    display: block;
+    padding-top: 10px;
+}
+.footer-col-right{
+    text-align:left;
+    display: block;
+    padding-top: 10px;
+}
+
+
+.btn-primary{
+    background-color: dodgerblue;
+}
+.btn-light{
+    margin-left: 20px ;
+    background-color: #ecf5fe;
+    border-color: #ecf5fe;
+    color: #1184e9;
+}
+
+.btn{
+    padding: 10px 30px 10px 30px;
+
+}
+
+.image1{
+    display: none;
+    width: 56%;
+}
+.nav-tabs{
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+
+@media (min-width: 720px) {
+.image1 {
+    display: inline-block;
+    
+}
+.nav-tabs{
+    flex-wrap: nowrap;
+    overflow:hidden;
+}
+.size{
+    height: 4rem;
+    border-bottom: 1px solid grey;
+}
+
+.navbar{
+    height: 4rem;
+    border-bottom: 1px solid grey;
+}
+
+.footer-col-right{
+    text-align: right;
+    
+}
+.footer-col-left{
+    text-align: left;
+}
+}
+
+
+img{
+    vertical-align: bottom
+}
+
+section{
+   text-align: center; 
+    margin-top: 80px;
+}
+
+
+.card-text, .section-description{
+    font-size: 1.25rem;
+     color: #74808b;
+     text-align: left;
+}
+
+.card{
+    border-radius: 15px;
+    
+}
+
+.card-title, .section-title{
+    font-weight: 600;
+    text-align: left;
+}
+
+.screenshot{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card-texts
+    {
+        
+         color: #74808b;
+         text-align: left;
+    }
+
+    .card-titles{
+        font-size: large;
+        font-weight: 600;
+    text-align: left;
+
+    }
+
+
+    .section-cta{
+       
+        text-align: center;
+        background-color: #ecf5fe;
+        border-radius: 0.75rem;
+        padding:100px;
+    }
+
+    .description{
+
+        color: #74808b;
+        font-size: 0.7rem;
+    }
+    .subtitle{
+        color: #74808b;
+        font-size: 1.25rem;
+    
+        text-align: center;
+
+    }
+
+
+
+    .footer a{
+        padding-right: 10px;
+        color: #74808b;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .footer-logo{
+        width: 80px;
+
+    }
+
+    h1{
+        text-align: left;
+    }
